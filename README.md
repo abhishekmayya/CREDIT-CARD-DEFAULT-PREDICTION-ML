@@ -1,8 +1,3 @@
-Here's a **complete and beautiful `README.md`** for your MLOps project based on the project flow you provided:
-
----
-
-````markdown
 # 🚀 Credit Card Fraud Detection — End-to-End MLOps Pipeline
 
 This project is an end-to-end implementation of a **Credit Card Fraud Detection System** with a full MLOps lifecycle: from data ingestion to model deployment using cloud infrastructure, Docker, CI/CD pipelines, and monitoring. It follows modular, scalable, and reproducible architecture principles.
