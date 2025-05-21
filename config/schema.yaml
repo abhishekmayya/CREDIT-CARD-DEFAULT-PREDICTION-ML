@@ -1,0 +1,85 @@
+columns:
+
+- _id: int
+- ID: int
+- LIMIT_BAL: int
+- SEX: category
+- EDUCATION: category
+- MARRIAGE: category
+- AGE: int
+- PAY_0: category
+- PAY_2: category
+- PAY_3: category
+- PAY_4: category
+- PAY_5: category
+- PAY_6: category
+- BILL_AMT1: float
+- BILL_AMT2: float
+- BILL_AMT3: float
+- BILL_AMT4: float
+- BILL_AMT5: float
+- BILL_AMT6: float
+- PAY_AMT1: float
+- PAY_AMT2: float
+- PAY_AMT3: float
+- PAY_AMT4: float
+- PAY_AMT5: float
+- PAY_AMT6: float
+- default payment next month: int
+
+numerical_columns:
+
+- LIMIT_BAL
+- AGE
+- BILL_AMT1
+- BILL_AMT2
+- BILL_AMT3
+- BILL_AMT4
+- BILL_AMT5
+- BILL_AMT6
+- PAY_AMT1
+- PAY_AMT2
+- PAY_AMT3
+- PAY_AMT4
+- PAY_AMT5
+- PAY_AMT6
+
+categorical_columns:
+
+- SEX
+- EDUCATION
+- MARRIAGE
+- PAY_0
+- PAY_2
+- PAY_3
+- PAY_4
+- PAY_5
+- PAY_6
+
+drop_columns: 
+
+- _id
+- ID
+
+# for data transformation
+# For standard Scaling
+num_features:
+
+- LIMIT_BAL
+- AGE
+- BILL_AMT1
+- BILL_AMT2
+- BILL_AMT3
+- BILL_AMT4
+- BILL_AMT5
+- BILL_AMT6
+- PAY_AMT1
+- PAY_AMT2
+- PAY_AMT3
+- PAY_AMT4
+- PAY_AMT5
+- PAY_AMT6
+
+mm_columns:
+
+- LIMIT_BAL

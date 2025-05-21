@@ -1,0 +1,23 @@
+pandas
+numpy 
+matplotlib
+seaborn
+scipy
+imblearn
+scikit-learn
+fastapi
+ipykernel
+boto3
+pymongo
+from_root
+dill
+certifi
+PyYAML
+mypy-boto3-s3
+botocore
+python-multipart
+uvicorn
+jinja2
+xlrd
+xgboost
+-e . #will go to setup.py and find all the packages from 'name': src
