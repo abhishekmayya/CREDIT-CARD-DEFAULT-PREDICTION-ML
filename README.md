@@ -33,7 +33,7 @@ This project is an end-to-end implementation of a **Credit Card Fraud Detection 
 | Data Handling       | pandas, numpy, PyYAML                             |
 | ML/DL               | scikit-learn                                      |
 | Logging             | Python Logging module                             |
-| Deployment          | Flask, Docker, AWS EC2, AWS S3, AWS ECR           |
+| Deployment          | FastAPI, Docker, AWS EC2, AWS S3, AWS ECR           |
 | CI/CD               | GitHub Actions (Self-Hosted Runner on EC2)        |
 | Package Mgmt        | pip, conda, setup.py, pyproject.toml              |
 
@@ -238,7 +238,7 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 
-For questions or support, contact [your\_email@example.com](mailto:your_email@example.com)
+For questions or support, contact [your\_email@example.com](mailto:abhishekmayya@gmail.com)
 
 ---
 
