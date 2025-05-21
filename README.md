@@ -155,7 +155,7 @@ export AWS_SECRET_ACCESS_KEY="..."
 
 ---
 
-## 🌐 Flask Web App
+## 🌐 Web App
 
 * Access `/training` to trigger model training.
 * Deployed via EC2 public IP + port `5080`.
