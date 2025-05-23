@@ -19,7 +19,7 @@ This project is an end-to-end implementation of a **Credit Card Fraud Detection 
 - **AWS Integration** with S3, EC2, ECR
 - **Dockerized** ML App
 - **CI/CD Pipeline** via GitHub Actions + Self-hosted EC2 runner
-- **Web App Deployment** using Flask
+- **Web App Deployment** using FastAPI
 - **Accessible via EC2 Public IP on Port 5080**
 
 ---
@@ -43,7 +43,7 @@ This project is an end-to-end implementation of a **Credit Card Fraud Detection 
 
 ```bash
 .
-├── app.py                       # Flask app entry point
+├── app.py                       # FastAPI app entry point
 ├── Dockerfile
 ├── .github/workflows/aws.yaml  # CI/CD workflow
 ├── notebook/                   # Notebooks + mongoDB demo
